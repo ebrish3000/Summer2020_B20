@@ -34,10 +34,10 @@ public class GradeReport {
 
         ArrayList<Integer> gradeF = new ArrayList<>();
         gradeF.addAll(list); // 1st ==> store all grade lists.
-       // gradeF.removeIf(p-> p > 59); // 2nd ==> remove the lists out of A.
-        gradeF.removeAll(gradeA);
+        gradeF.removeIf(p-> p > 59); // 2nd ==> remove the lists out of A.
+       /* gradeF.removeAll(gradeA);
         gradeF.removeAll(gradeB);
-        gradeF.removeAll(gradeC);gradeF.removeAll(gradeD);
+        gradeF.removeAll(gradeC);gradeF.removeAll(gradeD);*/
 
 
         System.out.println("Grade F: "+ gradeF);
