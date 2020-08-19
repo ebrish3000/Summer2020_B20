@@ -14,7 +14,7 @@ public class ArrayList_Methods {
 
 
         earlyBirdList.set(2, "Aslan");
-        earlyBirdList.set(0, "lan");
+        earlyBirdList.set(0, "Ebrahim");
 
         System.out.println(earlyBirdList);
 
@@ -65,7 +65,8 @@ public class ArrayList_Methods {
         list3.add("Musa");  //4
 
         //  list3.remove(2);
-        list3.remove("bulnet");
+       boolean b = list3.remove("Bulnet");
+        System.out.println(b);
 
         System.out.println(list3);
 

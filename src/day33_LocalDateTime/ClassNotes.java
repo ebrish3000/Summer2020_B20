@@ -24,7 +24,7 @@ warmup tasks:
         1. create a method that can print out the unique numbers from an array of integer
         2. create a method that can print out the unique numbers from an array of double
         3. create a method that can print out the unique words from an array of String
-        4. creata a method that can print out the unique characters from an array of chars
+        4. create a method that can print out the unique characters from an array of chars
             MUST use for each loop
 come back: 2:10 pm
 decimal formatting:

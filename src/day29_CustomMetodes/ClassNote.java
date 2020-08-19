@@ -51,7 +51,7 @@ branching statements:
     return: exits the current method
     System.exit(0): exits the entire system
 task:
-    1. create a method that can print odd numbers between 1~100 in a same line seperated by space
+    1. create a method that can print odd numbers between 1~100 in a same line separated by space
     2. create a method that can print even numbers between 1~100
     3. create a method that can calculate the age of the person
     4. check eligibility to vote

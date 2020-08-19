@@ -24,7 +24,7 @@ public class Method_Practice {
 
     public static void evenNumbers(){
         for (int i = 0; i <= 100; i += 2) {
-            System.out.print(i + " ");
+           // System.out.print(i + " ");
         }
         System.out.println();
     }

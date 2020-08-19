@@ -8,18 +8,21 @@ Topic: Custom methods Continue:
 
 Package name: day31_Recap
 warmup tasks:
-    1.  write a return method called frequency that accepts two parameters: string str and char ch, the method returns the frequency of the ch from the str as an int
+    1.  write a return method called frequency that accepts two parameters: string str and char ch,
+    the method returns the frequency of the ch from the str as an int
             Ex:
                 frequency("AAA", 'A') ==>  3
                 frequency("ABAB", 'B') ==> 2
             Note: MUST use Arrays and for each loop
             please copy paste the method to the util class
-    2. use the above method to create another called uniques that accepts a string paramter and returns it's unique characters as String
+    2. use the above method to create another called uniques that accepts a string paramter and returns
+    it's unique characters as String
             Ex:
                 uniques("ABBC");       ==> "AC"
                 uniques("Cybertek");   ==> "cybrtk"
                 please copy paste the method to the util class
-    3. use the methods removeDup and frequency in util class to create a thrid method called frequencyOfChars that can find the frequency of all characters from a string
+    3. use the methods removeDup and frequency in util class to create a thrid method called
+    frequencyOfChars that can find the frequency of all characters from a string
         Ex:
             frequencyOfChars("AAABBBBCCCC");  ===> A3B4C4
             frequencyOfChars("DDEFJJJ"); ===> D2E1F1J3
@@ -43,7 +46,7 @@ methods: grouping a series of code fragments to create a function
                 DataType: MUST return a value
         Parameter: necessary info
                 when method is called, it's mandatory to pass argument(s)
-Reveiw:
+Review:
     Array: day 24 & 27
     nested loop: day 22 & 23
     for & while: day 18 & 20

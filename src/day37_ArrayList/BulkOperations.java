@@ -41,6 +41,7 @@ public class BulkOperations {
         boolean r4 =  list2.containsAll(   Arrays.asList( arr )   );
 
         System.out.println(r3);
+        System.out.println(r4);
 
         System.out.println("===============================================");
         ArrayList<Integer> numbers = new ArrayList<>();

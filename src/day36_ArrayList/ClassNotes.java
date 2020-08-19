@@ -20,7 +20,8 @@ warmup tasks:
 			ex:	list = [1,2,3,4,5];
 				output: [2,2,6,4,10]
 
-	3.  write a program that can find the unique elements from an ArrayList of integers and stores into another list called uniques
+	3.  write a program that can find the unique elements from an ArrayList of integers and stores
+	into another list called uniques
 
             ex: list==> {1,1,2,3,3,4,5}
                 uniques ==> {2,4,5}

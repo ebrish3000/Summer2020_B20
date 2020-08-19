@@ -4,7 +4,7 @@ import java.time.LocalDate;
 
 public class BirthDay {
     public static void main(String[] args) {
-        HappyBirthDay(2019, 8, 26);
+        HappyBirthDay(2019, 8, 16);
     }
     public static void HappyBirthDay(int year, int month, int day) {
         LocalDate birthday = LocalDate.of(year, month, day);

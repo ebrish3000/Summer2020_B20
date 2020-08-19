@@ -12,6 +12,7 @@ public class ArrayPractice1 {
         String  name1 =   students[4];
         String name2 = family[3];
         String name3 = family[0];
+        String[] arr = new String[8];
 
         System.out.println(name1);
         System.out.println(name2);

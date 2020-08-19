@@ -23,7 +23,8 @@ public class Remove_Digits_Letters {
 
         ArrayList<Character> digits = new ArrayList<>();  // [1,2]
         digits.addAll( list );
-        digits.removeIf( p ->  !Character.isDigit(p)  );  // if the character is not digit, then remove it from thelist
+        digits.removeIf( p ->  !Character.isDigit(p)  );  // if the character is not digit,
+                                                          // then remove it from the list
 
         System.out.println("digits: "+digits);
 

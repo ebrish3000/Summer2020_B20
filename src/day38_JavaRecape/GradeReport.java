@@ -7,10 +7,10 @@ public class GradeReport {
     public static void main(String[] args) {
 
         ArrayList<Integer> list = new ArrayList<>();
-        list.addAll(Arrays.asList(100, 90, 85, 75, 55, 45, 73, 73, 35, 47, 69,
-                87, 77, 67, 57, 47, 93, 83));
-        System.out.println(list.toString());
-
+        list.addAll(Arrays.asList(100, 90, 85, 75, 55, 91, 73, 73, 35, 47, 69,
+                87, 77, 67, 57, 97, 93, 83));
+        System.out.println(list.toString()); // can be just list or list.toString it is the same
+        System.out.println("++++++++++++++++++++++++");
 
         ArrayList<Integer> gradeA = new ArrayList<>();
         gradeA.addAll(list); // 1st ==> store all grade lists.
@@ -41,6 +41,13 @@ public class GradeReport {
 
 
         System.out.println("Grade F: "+ gradeF);
+
+        System.out.println("=========================================");
+        System.out.println(gradeA.size()+ " students made A");
+        System.out.println(gradeB.size()+ " students made B");
+        System.out.println(gradeC.size()+ " students made C");
+        System.out.println(gradeD.size()+ " students made D");
+        System.out.println(gradeF.size()+ " students fail");
 
 
 

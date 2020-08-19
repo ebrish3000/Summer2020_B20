@@ -4,8 +4,8 @@ public class ReturnMethods2 {
 
     public static void main(String[] args) {
         String name = "Level";
-        // revStr1(name);
-        //    System.out.println(name.equalsIgnoreCase( revStr1(name) ));
+        //revStr1(name);
+        //System.out.println(name.equalsIgnoreCase( revStr1(name) ));
 
 
         System.out.println( name.equalsIgnoreCase( revStr2(name) ) );

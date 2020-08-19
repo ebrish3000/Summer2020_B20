@@ -1,4 +1,4 @@
-package day30_CustomMethods;
+package day30_CustomMethod;
 /*
 wamrmup tasks:
 	1. create a function that can print out the maximum number between two numbers

@@ -9,7 +9,7 @@ public class Duplicates {
         ArrayList<Integer> list = new ArrayList<>();
         list.addAll(Arrays.asList(1, 1, 2, 2, 3,3,4, 5, 6, 7, 8, 10,10));
 
-        list.removeIf(p -> Collections.frequency(list, p) == 1);
+        list.removeIf(p -> Collections.frequency(list, p) == 1);  // to remove all unique integers
         System.out.println(list);
         System.out.println("=====================================================");
 

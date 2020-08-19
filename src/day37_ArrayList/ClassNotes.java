@@ -21,20 +21,20 @@ Arrays Utility:
                     RETURNS COLLECTION TYPE
 ArrayList Methods:
         Bulk Operations: designed for CollectionTypes
-                containsAll(ColectionType): verifies if all elements are contained in the list. boolean
-                addAll(ColectionType): add multiple elements at the same time to arraylist
-                removeAll(ColectionType): removes all the matching elements
-                retainAll(ColectionType): removes all the NOT matching elements
+                containsAll(CollectionType): verifies if all elements are contained in the list. boolean
+                addAll(CollectionType): add multiple elements at the same time to arraylist
+                removeAll(CollectionType): removes all the matching elements
+                retainAll(CollectionType): removes all the NOT matching elements
         removeIf(Predicate): removes the elements that are matching with the if condition
                 Predicate: applied to the CollectionTypes
                         Predicate<DataType>    name  =  p ->  Boolean Expression
 Collections Class:
-        Collections.frequency(ColectionType, Element): returns the frequency of element
-        Collections.swap(ColectionType, index1, index2): swap the elements
-        Collections.sort(ColectionType): sorts it in ascending order
-        Collections.max(ColectionType): returns the maximum
-        Collections.min(ColectionType): return the minimum
-        Collections.replaceAll(ColectionType):
+        Collections.frequency(CollectionType, Element): returns the frequency of element
+        Collections.swap(CollectionType, index1, index2): swap the elements
+        Collections.sort(CollectionType): sorts it in ascending order
+        Collections.max(CollectionType): returns the maximum
+        Collections.min(CollectionType): return the minimum
+        Collections.replaceAll(CollectionType):
 tasks:
     1. write a program that can remove all the names named 'Ahmed' from the list of names
     2. write a program that can remove the elements that are not unique from the ArrayList
